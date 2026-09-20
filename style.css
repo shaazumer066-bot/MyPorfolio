@@ -6,22 +6,52 @@
 }
 
 body {
-    background-color: rgb(237, 237, 233);
+    background-image: url(assests/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 body h2 {
     font-family: "Bungee", sans-serif;
+    font-size: 70px;
     color: rgb(213, 189, 175);
+}
+
+.quote {
+    color: rgba(213, 189, 175, 0.5);
+    font-size: 80px;
+    margin: 35px;
+}
+
+.highlight {
+    color: rgba(247, 33, 25, 0.5);
+    margin: 120px;
+}
+
+.highlight2 {
+    color: rgba(247, 33, 25, 0.5);
+    margin: 70px 0px 70px 70px;
+}
+
+.and {
+    margin: 400px;
 }
 
 body p {
     font-family: "Orbitron", sans-serif;
-    color: rgb(72, 65, 60);
+    color: white;
+}
+
+body ul {
+    font-family: "Orbitron", sans-serif;
+    color: white;
 }
 
 header {
-    background-color: rgba(72, 65, 60, 0.5);
-    backdrop-filter: blur(5px);
+    background-color: rgba(72, 65, 60, 0.3);
+    backdrop-filter: blur(4px);
     border: 2px solid rgb(247, 33, 25);
     border-radius: 20px;
     position: sticky;
@@ -41,13 +71,13 @@ header {
 }
 
 .navbar h1 {
-    margin: 5px;
-    padding: 0px;
+    margin: 0px;
+    padding: 6px 0px 5px 10px;
     font-family: "Tiny5", sans-serif;
-    font-weight: 400;
-    color: rgb(72, 65, 60);
+    font-weight: 800;
+    color: rgb(213, 189, 175);
     cursor: default;
-    transition: color 0.3s linear;
+    transition: color 0.7s linear;
 }
 
 .navbar h1:hover {

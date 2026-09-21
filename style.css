@@ -19,24 +19,24 @@ body h2 {
     color: rgb(213, 189, 175);
 }
 
-.quote {
-    color: rgba(213, 189, 175, 0.5);
-    font-size: 80px;
-    margin: 35px;
+#fragment-of {
+    margin: 0px 0px 0px 50px ;
 }
 
-.highlight {
-    color: rgba(247, 33, 25, 0.5);
-    margin: 120px;
+#change1 {
+    margin: 50px 0px 50px 400px;
+    color: rgba(247, 33, 25, 0.4);
+    backdrop-filter: 5px;
 }
 
-.highlight2 {
-    color: rgba(247, 33, 25, 0.5);
-    margin: 70px 0px 70px 70px;
+#built-with {
+    margin: 0px 0px 0px 50px ;
 }
 
-.and {
-    margin: 400px;
+#change2 {
+    margin: 50px 0px 50px 400px;
+    color: rgba(247, 33, 25, 0.4);
+    backdrop-filter: 5px;
 }
 
 body p {

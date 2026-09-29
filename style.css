@@ -5,6 +5,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(assests/wallpaper.jpg);
     background-size: cover;
@@ -27,6 +31,7 @@ body h2 {
     margin: 50px 0px 50px 400px;
     color: rgba(247, 33, 25, 0.4);
     backdrop-filter: 5px;
+    font-style: italic;
 }
 
 #built-with {
@@ -37,11 +42,11 @@ body h2 {
     margin: 50px 0px 50px 400px;
     color: rgba(247, 33, 25, 0.4);
     backdrop-filter: 5px;
+    font-style: italic;
 }
 
 .home-p p{
     font-size: 40px;
-    color: beige;
     padding: 10px;
     background-color: rgba(213, 189, 175, 0.3);
     margin: 20px;
@@ -50,7 +55,7 @@ body h2 {
 
 body p {
     font-family: "Orbitron", sans-serif;
-    color: white;
+     color: beige;
 }
 
 body ul {
@@ -117,3 +122,211 @@ hr {
     margin: 10px;
 }
 
+.project1 {
+    background-color: rgba(213, 189, 175, 0.3);
+    border: 2px dashed rgb(247, 33, 25);
+    margin: 20px;
+    padding: 10px;
+}
+
+.card-h2 h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    cursor: default;
+}
+
+.card-h2-border {
+    border: 2px dashed rgb(247, 33, 25);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.card-p {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.card {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    margin: 30px;
+    font-size: 35px;
+}
+
+.download {
+    margin: 30px;
+    font-size: 35px;
+}
+
+.tryit {
+    margin: 30px;
+    font-size: 35px;
+}
+
+.github a {
+    font-family: "Bungee", sans-serif;
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    background-color: rgba(213, 189, 175, 0.5);
+    border: 2px dashed rgb(247, 33, 25);
+    border-radius: 30px;
+    transition: background-color 0.35s linear;
+}
+
+.download a {
+    font-family: "Bungee", sans-serif;
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    background-color: rgba(213, 189, 175, 0.5);
+    border: 2px dashed rgb(247, 33, 25);
+    border-radius: 30px;
+    transition: background-color 0.35s linear;
+}
+
+.tryit a {
+    font-family: "Bungee", sans-serif;
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    background-color: rgba(213, 189, 175, 0.5);
+    border: 2px dashed rgb(247, 33, 25);
+    border-radius: 30px;
+    transition: background-color 0.35s linear;
+}
+
+.github a:hover {
+    background-color: black;
+}
+
+.download a:hover {
+    background-color: black;
+}
+
+.tryit a:hover {
+    background-color: black;
+}
+
+.project2 {
+    background-color: rgba(213, 189, 175, 0.3);
+    border: 2px dashed rgb(247, 33, 25);
+    margin: 20px;
+    padding: 10px;
+}
+
+.project3 {
+    background-color: rgba(213, 189, 175, 0.3);
+    border: 2px dashed rgb(247, 33, 25);
+    margin: 20px;
+    padding: 10px;
+}
+
+.me {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(213, 189, 175, 0.3);
+    border: 2px dashed rgb(247, 33, 25);
+    margin: 20px;
+    padding: 10px;
+}
+
+.me p {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.me img {
+    border: 2px solid rgb(247, 33, 25);
+    border-radius: 10px;
+}
+
+.hobbies1 {
+    font-size: 40px;
+    padding: 30px;
+    background-color: rgba(213, 189, 175, 0.3);
+    border: 2px dashed rgb(247, 33, 25);
+}
+
+.hobbies ul {
+    color: beige;
+    padding: 30px;
+}
+
+.contact {
+    background-color: rgba(213, 189, 175, 0.3);
+    border: 2px dashed rgb(247, 33, 25);
+    margin: 20px;
+    padding: 10px;
+}
+
+.contact-p {
+    font-size: 40px;
+}
+
+.instagram {
+    margin: 30px;
+    font-size: 35px;
+}
+
+.mail {
+    margin: 30px;
+    font-size: 35px;
+}
+
+.mail a {
+    font-family: "Bungee", sans-serif;
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    background-color: rgba(213, 189, 175, 0.5);
+    border: 2px dashed rgb(247, 33, 25);
+    border-radius: 30px;
+    transition: background-color 0.35s linear;
+}
+
+.instagram a {
+    font-family: "Bungee", sans-serif;
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    background-color: rgba(213, 189, 175, 0.5);
+    border: 2px dashed rgb(247, 33, 25);
+    border-radius: 30px;
+    transition: background-color 0.35s linear;
+}
+
+.mail a:hover {
+    background-color: black;
+}
+
+.instagram a:hover {
+    background-color: black;
+}
+
+.contact {
+    align-items: center;
+}
+
+.contact-a {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.h2-dec {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(247, 33, 25, 0.4);
+}

@@ -1,8 +1,13 @@
 let change1Text = document.getElementById("change1");
 let change2Text = document.getElementById("change2");
+let greetingindex = 0;
+
+const bootscreen = document.getElementById("bootscreen")
+const boottext = document.getElementById("boottext")
 
 const words1 = ["Inspiration", "Intuition", "Ambition", "Imagination", "Curiosity"];
 const words2 = ["Intention", "Precision", "Purpose", "Craft", "Clarity"];
+const hello = ["Hello", "नमस्ते", "مرحبا", "Bonjour", "こんにちは", "Hola"];
 
 let wordIndex = 0;
 let characterIndex = 0;
@@ -55,4 +60,24 @@ function changeEffect()
     setTimeout(changeEffect, speed);
 }
 
+function bootgreeting() {
+    boottext.textContent = hello[greetingindex];
+    greetingindex++;
+
+    if (greetingindex < hello.length) 
+    {
+        setTimeout(bootgreeting, 500);
+    }
+
+    else 
+    {
+        setTimeout(() => 
+            {
+            bootscreen.classList.add("hide");
+            }, 800);
+    }
+
+}
+
+bootgreeting();
 changeEffect();

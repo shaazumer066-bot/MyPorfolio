@@ -39,6 +39,15 @@ body h2 {
     backdrop-filter: 5px;
 }
 
+.home-p p{
+    font-size: 40px;
+    color: beige;
+    padding: 10px;
+    background-color: rgba(213, 189, 175, 0.3);
+    margin: 20px;
+    border: 2px dashed rgb(247, 33, 25);
+}
+
 body p {
     font-family: "Orbitron", sans-serif;
     color: white;
@@ -52,7 +61,7 @@ body ul {
 header {
     background-color: rgba(72, 65, 60, 0.3);
     backdrop-filter: blur(4px);
-    border: 2px solid rgb(247, 33, 25);
+    border: 2px dashed rgb(247, 33, 25);
     border-radius: 20px;
     position: sticky;
     top: 10px;
@@ -100,5 +109,11 @@ header {
     text-decoration: none;
     color: rgb(213, 189, 175);
     transition: color 0.3s linear;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed rgba(213, 189, 175, 0.5);
+    margin: 10px;
 }
 

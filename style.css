@@ -19,7 +19,7 @@ body {
 
 body h2 {
     font-family: "Bungee", sans-serif;
-    font-size: 70px;
+    font-size: 40px;
     color: rgb(213, 189, 175);
 }
 
@@ -330,10 +330,12 @@ hr {
     justify-content: center;
     background-color: rgba(247, 33, 25, 0.4);
     border: 2px dashed beige;
+    margin: 0px;
+    padding: 0px;
 }
 
 #bootscreen {
-    background-color: #000;
+    background-color: #07080C;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -346,11 +348,84 @@ hr {
 #boottext {
     font-size: 50px;
     font-weight: 700;
-    font-family: "Bungee", sans-serif;
+    font-family: "Tiny5", sans-serif;
     color: rgb(247, 33, 25);
 }
 
 #bootscreen.hide {
     opacity: 0;
     pointer-events: none;
+}
+
+@media (max-width: 768px) {
+
+    body h2 {
+        font-size: 30px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        padding: 6px;
+    }
+
+    #change1,
+    #change2 {
+        margin: 20px 0;
+    }
+
+    .home-p p {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .card-p {
+        font-size: 20px;
+    }
+
+    .card {
+        flex-wrap: wrap;
+    }
+
+    .me {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .me p {
+        font-size: 20px;
+    }
+
+    .me img {
+        width: 250px;
+        height: auto;
+    }
+
+    .hobbies1 {
+        font-size: 20px;
+    }
+
+    .contact-p {
+        font-size: 20px;
+    }
+
+    .contact-a {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+body h2 {
+    font-size: 40px;
 }

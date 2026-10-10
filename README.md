@@ -13,7 +13,7 @@ I designed this website by myself without using ai. but i used ai in learning Ja
 
 ## Screenshots
 
-![Project Screenshot](assests/homepage.png)
+![Project Screenshot](assets/homepage.png)
 
 ## Tech stack
 
